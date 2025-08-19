@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./_css/main.css">
+    <title>Testes de Javascript</title>
+</head>
+
+<body>
+    <script>
+
+        function mensagemImagem() {
+            document.write("<p>Nesta imagem tem a logo do Javascript uma escrita Javascript com fundo amarelo e um notebook<p>")
+        }
+
+        document.write("<p id=exerci><b>Exercício 04</b></p>")
+        document.write("<p id=titulo>" + document.title + "<p>")
+    </script>
+    <button id="confi" type="submit" onclick="alert('Confirmado!!!')">Confirma</button>
+    <button id="cance" type="button" onclick="alert('Cancelado!!!')">Cancela</button>
+    <button id="lin" type="reset" onclick="alert('Limpo!!!')">Limpa</button><br><br>
+
+    <img src="./_imagens/javascript.png" alt=""><br><br>
+    <button type="button" onclick="mensagemImagem()">Inprimir</button><br><br>
+
+
+</body>
+
+</html>
